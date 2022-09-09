@@ -6,7 +6,7 @@
 
 You can find the live deployment link of this web page below
 
-# [Live Deployment Link](https://interiordesignltd.netlify.app/)\*\*
+# [Live Deployment Link](https://interiordesignltd.netlify.app/)
 
 <br/>
 <br/>
