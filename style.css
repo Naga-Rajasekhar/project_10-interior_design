@@ -53,6 +53,7 @@ body {
 .description {
   margin: 5rem;
   font-size: 4rem;
+  width: 40rem;
 }
 
 .learn-more {
@@ -114,43 +115,6 @@ body {
   background-color: #fff;
 }
 
-/* .circleone {
-  width: 15px;
-  height: 15px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px;
-  margin-left: 60rem;
-  margin-top: 2rem;
-}
-
-.circletwo {
-  width: 15px;
-  height: 15px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px;
-  margin-left: 70rem;
-  margin-top: -8rem;
-}
-
-.line-3 {
-  position: relative;
-  height: 1px;
-  background: #fff;
-  margin-left: 54.5rem;
-  margin-top: 6.5rem;
-  margin-right: 25rem;
-}
-
-.line-2 {
-  border-left: 1px solid #fff;
-  height: 66px;
-  position: absolute;
-  left: 70.95rem;
-  bottom: 14rem;
-}  */
-
 .line {
   margin-left: 54.5rem;
 }
@@ -165,4 +129,43 @@ main span.line-two svg {
   transform: rotate(90deg);
   margin-left: 65rem;
   margin-top: -9.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: auto;
+    font-family: "Poppins", sans-serif;
+    background-image: url(./images/interior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: #00000054;
+    background-blend-mode: darken;
+    overflow: hidden;
+  }
+
+  .navbar-one,
+  .navbar-two,
+  .navbar-three,
+  .navbar-four,
+  .navbar-five {
+    display: none;
+  }
+
+  .line-1 {
+    display: none;
+  }
+
+  .description {
+    font-size: 4rem;
+    width: 25rem;
+  }
+
+  .navlogo {
+    font-size: 1.5rem;
+  }
+
+  .learn-more {
+    margin-left: 9rem;
+  }
 }
